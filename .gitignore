@@ -1,3 +1,5 @@
 .DS_Store
 /__pycache__
-stats.*
+stats.in
+stats.vn
+stats.fi
