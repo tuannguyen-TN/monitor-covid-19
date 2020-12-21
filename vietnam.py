@@ -11,7 +11,7 @@ def vietnam():
     print("-"*(len(a)-1))
     print("On " + today_date + " at " + present_time + " GMT+7" + ":")
 
-    with open('stats.vn', 'r') as fi:
+    with open('vietnam.info', 'r') as fi:
         old_timestamp = fi.readline().strip()
         old_date = fi.readline().strip()
         old_stats = list(map(int, fi.read().split("\n")))
@@ -31,7 +31,7 @@ def vietnam():
     old_stats = []
     old_stats = [data["cases"], data["deaths"], data["recovered"]]
 
-    with open('stats.vn', 'w') as fi:
+    with open('vietnam.info', 'w') as fi:
         fi.write(present_time)
         fi.write("\n")
         fi.write(today_date)
