@@ -9,7 +9,7 @@ def uk():
     today_date = str(datetime.date.today().strftime("%B %d, %Y"))
     present_time = str(datetime.datetime.now())[11:19]
     print("-"*(len(a)-1))
-    print("On " + today_date + " at " + present_time + " GMT+7" + ":")
+    print("On " + today_date + " at " + present_time + ":")
 
     with open('uk.info', 'r') as fi:
         old_timestamp = fi.readline().strip()
@@ -26,7 +26,7 @@ def uk():
 
     # if (today_date != old_date):
     # Print comparisions
-    print("Compared to last stored data on " + old_date + " at " + old_timestamp + " GMT+7" + ":\nCases: %d\nDeaths: %d\nRecovered: null" % (data["cases"] - old_stats[0], data["deaths"] - old_stats[1]))
+    print("Compared to last stored data on " + old_date + " at " + old_timestamp + ":\nCases: %d\nDeaths: %d\nRecovered: null" % (data["cases"] - old_stats[0], data["deaths"] - old_stats[1]))
 
     old_stats = []
     old_stats = [data["cases"], data["deaths"], data["recovered"]]
