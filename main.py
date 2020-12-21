@@ -2,7 +2,7 @@ import world
 import vietnam
 import finland
 
-choice = int(input("1. World\n2. Vietnam\n3. Finland\n\n"))
+choice = int(input("1. World\n2. Vietnam\n3. Finland\n\nYour choice: "))
 print()
 if choice == 1:
     world.world()
