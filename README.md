@@ -12,5 +12,7 @@ The original time will be displayed in your local time zone. Make sure to change
 
 If you are using repl.it, the local time will be in accordance with GMT+0.
 
+repl.it link: https://repl.it/@Nguyen_ThanhTh1/covid#main.py
+
 Original repository for COVID API:
 https://github.com/javieraviles/covidAPI
