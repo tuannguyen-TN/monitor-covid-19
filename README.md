@@ -5,7 +5,6 @@ This is a python program of monitoring COVID-19 cases of the World, Vietnam, and
 The users can choose to show data of COVID-19 of the world, Vietnam, England or Finland. This prompts the data and also the differences, which means which one increases or decreases with negative sign, between shown data and the data stored in the {country name/world}.info file, instead of the previous stored data.
 
 According to the API, the recovered data of UK is not retrieved, so it will be shown as null.
-** Note: make sure to create uk.info file for stats. Write some data to the file in order for the file to be read.
 
 Users can also use the code as template to build a program for the country of their own interest.
 
