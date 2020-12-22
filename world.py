@@ -5,7 +5,7 @@ import datetime
 
 def world():
     a = "Up-to-date Covid-19 Statistics all over the world:\n"
-    print("Up-to-date Covid-19 Statistics:")
+    print("Up-to-date Covid-19 Statistics all over the world:")
     today_date = str(datetime.date.today().strftime("%B %d, %Y"))
     present_time = str(datetime.datetime.now())[11:19]
     print("-"*(len(a)-1))
